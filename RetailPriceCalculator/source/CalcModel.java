@@ -42,6 +42,7 @@ public class CalcModel
 	}
 	public void calcOverhead(double oh) //calc overhead cost
 	{
+		overhead = 0;
 		overhead = sum * (oh/100);
 	}
 	public double getOverhead() //returns overhead value
